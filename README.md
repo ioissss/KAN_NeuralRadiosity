@@ -18,21 +18,21 @@ neural radiosity 的做法可以看看原文 《Neural radiosity》，其实就�
 
 ## 对比：重建质量
 
-| MLP Rhand 重建 | KAN Rhand 重建 |
-| --- | --- |
-| ![MLP Rhand 重建效果](https://github.com/user-attachments/assets/2b67d3ab-e409-447d-a4b5-dc629e77c612) | ![KAN Rhand 重建效果](https://github.com/user-attachments/assets/0aaf7c9f-924e-4243-8105-29da0d9dd900) |
-
-**图注：**
-- **左图**：MLP Rhand 重建效果。
-- **右图**：KAN Rhand 重建效果。
-
 | MLP Lhand 重建 | KAN Lhand 重建 |
 | --- | --- |
-| ![MLP Lhand 重建效果](https://github.com/user-attachments/assets/802b871a-b627-4476-9127-53779bb8cb96) | ![KAN Lhand 重建效果](https://github.com/user-attachments/assets/510f98dd-c42e-4d1a-8ff9-03d86ccad3ab) |
+| ![MLP Lhand 重建效果](https://github.com/user-attachments/assets/2b67d3ab-e409-447d-a4b5-dc629e77c612) | ![KAN Lhand 重建效果](https://github.com/user-attachments/assets/0aaf7c9f-924e-4243-8105-29da0d9dd900) |
 
 **图注：**
 - **左图**：MLP Lhand 重建效果。
 - **右图**：KAN Lhand 重建效果。
+
+| MLP Rhand 重建 | KAN Rhand 重建 |
+| --- | --- |
+| ![MLP Rhand 重建效果](https://github.com/user-attachments/assets/802b871a-b627-4476-9127-53779bb8cb96) | ![KAN Rhand 重建效果](https://github.com/user-attachments/assets/510f98dd-c42e-4d1a-8ff9-03d86ccad3ab) |
+
+**图注：**
+- **左图**：MLP Rhand 重建效果。
+- **右图**：KAN Rhand 重建效果。
 
 ## 对比：Loss 下降
 
@@ -52,4 +52,4 @@ neural radiosity 的做法可以看看原文 《Neural radiosity》，其实就�
 | 前向传播一次的平均时间: 3.339421 毫秒 | 前向传播一次的平均时间: 4.938826 毫秒 |
 
 ## 总结
-KAN的功能和MLP差不太多，但是速度比较慢，而且看RHand的重建质量有明显的问题，说明误差大一点，累积之后出现伪影。
+KAN的功能和MLP差不太多，但是速度比较慢，而且看LHand的重建质量有明显的问题，说明一些点的误差比较大。
