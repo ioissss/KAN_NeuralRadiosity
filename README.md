@@ -1,0 +1,2 @@
+# KAN_NeuralRadiosity
+neural radiosity是利用MLP重建场景辐射场的手段，探索了一下很火的KAN用来替换MLP效果怎么样
